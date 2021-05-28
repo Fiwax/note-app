@@ -1,0 +1,80 @@
+.text-input {
+  display:block;
+  border: 2px solid yellow;
+  background-color: rgb(243, 243, 12);
+}
+
+.header {
+  padding: 15px 0 15px 0;
+  font-size: 40px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: yellow;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 9px;
+  margin: 15px 15px;
+
+  .note__content {
+    font-size: 18px;
+    overflow-wrap: break-word;
+ }
+
+}
+
+.note-list {
+ margin: 30px 20px 10px 0 ;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.editor {
+  display: flex;
+  justify-content: center;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+
+  .note__delete-button {
+    background-color: red;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    color: white
+  }
+}
+
+.save-button {
+  background-color: gray;
+  padding: 0 10px 0 10px;
+  border-radius: 20px;
+  color:white
+}
+
+.search-form__input {
+  border: 1px solid #666;
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+}
+.main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.search-form__input {
+  outline: none;
+}
